@@ -1,45 +1,81 @@
+/* line 4, ../scss/style.scss */
 body {
-  margin-top: 105px; }
+  margin-top: 105px;
+}
 
+/* line 8, ../scss/style.scss */
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
-  background: #fff; }
-  .navbar .nav-item {
-    font-size: 1.4rem;
-    padding-right: 20px; }
+  background: #fff;
+}
+/* line 13, ../scss/style.scss */
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
 
+/* line 18, ../scss/style.scss */
 #showcase {
   position: relative;
   background: url("../images/mountains.jpg");
-  min-height: 600px; }
-  #showcase .primary-overlay {
-    background: rgba(50, 146, 166, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-  #showcase #arr {
-    width: 15px; }
+  min-height: 600px;
+}
+/* line 23, ../scss/style.scss */
+#showcase .primary-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 31, ../scss/style.scss */
+#showcase #arr {
+  width: 15px;
+}
 
+/* line 35, ../scss/style.scss */
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid; }
+  border-bottom: 1px #ddd solid;
+}
 
+/* line 42, ../scss/style.scss */
 #authors img {
-  margin-top: -50px; }
-
+  margin-top: -50px;
+}
+/* line 45, ../scss/style.scss */
 #authors .fa {
   font-size: 25px;
-  transition: all ease-in-out 0.5s; }
-
+  transition: all ease-in-out 0.5s;
+}
+/* line 49, ../scss/style.scss */
 #authors .card {
-  transition: all ease-in-out 0.5s; }
-
+  transition: all ease-in-out 0.5s;
+}
+/* line 52, ../scss/style.scss */
 #authors .card:hover {
   background: #3292a6;
-  color: #fff; }
-  #authors .card:hover .fa {
-    color: #fff; }
+  color: #fff;
+}
+/* line 55, ../scss/style.scss */
+#authors .card:hover .fa {
+  color: #fff;
+}
+
+/* line 61, ../scss/style.scss */
+.backToCV {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+}
+/* line 67, ../scss/style.scss */
+.backToCV img {
+  width: 20%;
+  border: 1px solid #78C2AD;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
